@@ -6,10 +6,12 @@
   "author": "andremorita <andreluizmorita@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index.js -e js"
+    "start": "nodemon src/index.js -e js",
+    "docker-mongo": "docker run --name mongonode -p 27017:27017 -d -t mongo"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongoose": "^5.3.14"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
