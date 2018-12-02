@@ -10,6 +10,7 @@
     "docker-mongo": "docker run --name mongonode -p 27017:27017 -d -t mongo"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.16.4",
     "mongoose": "^5.3.14"
   },
